@@ -105,14 +105,13 @@
     <properties>
         <jenkins.version>2.387.3</jenkins.version>
         <aetherVersion>1.0.2.v20150114</aetherVersion>
-        <commonsIoVersion>2.4</commonsIoVersion>
         <mavenVersion>3.3.9</mavenVersion>
         <wagonVersion>1.0</wagonVersion>
         <jerseyVersion>1.19.4</jerseyVersion>
         <jobdslVersion>1.69</jobdslVersion>
         <basicStepVersion>2.7</basicStepVersion>
         <scmapiVersion>2.2.7</scmapiVersion>
-        <workflowAggregatorVersion>2.5</workflowAggregatorVersion>
+        <workflowAggregatorVersion>596.v8c21c963d92d</workflowAggregatorVersion>
     </properties>
     <dependencyManagement>
         <dependencies>
