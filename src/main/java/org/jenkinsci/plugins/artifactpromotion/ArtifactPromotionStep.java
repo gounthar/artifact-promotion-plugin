@@ -23,6 +23,7 @@
 package org.jenkinsci.plugins.artifactpromotion;
 
 import com.google.common.collect.ImmutableSet;
+import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.Extension;
 import hudson.FilePath;
 import hudson.Launcher;
@@ -34,7 +35,6 @@ import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.DataBoundSetter;
 import org.kohsuke.stapler.StaplerRequest;
 
-import javax.annotation.Nonnull;
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.util.Set;
@@ -89,7 +89,7 @@ public class ArtifactPromotionStep extends Step implements Serializable {
 
         private ArtifactPromotionStep step;
 
-        protected ArtifactPromotionExecution(@Nonnull StepContext context, ArtifactPromotionStep step) {
+        protected ArtifactPromotionExecution(@NonNull StepContext context, ArtifactPromotionStep step) {
             super(context);
             this.context = context;
             this.step = step;
